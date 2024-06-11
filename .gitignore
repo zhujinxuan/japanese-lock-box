@@ -1,0 +1,6 @@
+.devenv
+.direnv
+*.stl
+**/*.stl
+*.svg
+dist/**

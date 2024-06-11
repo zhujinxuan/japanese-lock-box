@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "japanese-lock-box"
+version = "0.1.0"
+description = "FDM model for simple, small japanese lock box"
+authors = ["zhujinxuan <zhujinxuan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+build123d = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+yacv-server = "^0.8.10"
