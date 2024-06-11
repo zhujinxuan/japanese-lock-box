@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "japanese-lock-box"
+name = "japanese_lock_box"
 version = "0.1.0"
 description = "FDM model for simple, small japanese lock box"
 authors = ["zhujinxuan <zhujinxuan@gmail.com>"]
