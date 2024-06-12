@@ -4,12 +4,15 @@ from dataclasses import dataclass
 # Build config
 @dataclass
 class BuildConfig:
-    tolerence: float = 0.2
+    nozzle: float = 0.4
     length: float = 160
-    width: float = 80
-    height: float = 100
-    wallThickness: float = 4
-    leftPanelWidth: float = 20
-    rightPanelWidth: float = 20
-    lidPanelWidth: float = 20
-    lidLockAngle: float = 7
+    width: float = 60
+    height: float = 60
+    wallThickness: float = 2
+    lidPanelLength: float = 20
+    lidBotomDelta: float = 10
+    sildeHorizontalAngle: float = 7
+    slideTaper: float = 30
+    lidThicknessTop: float = 2
+    lidThicknessBelow: float = 2
+    filletRadius: float = 1
