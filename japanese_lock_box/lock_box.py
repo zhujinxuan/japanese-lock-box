@@ -43,7 +43,7 @@ def mkSlide(config: BuildConfig) -> b3d.Part:
     slide = slide.split(lidTopPlane(config))
     slide = slide.split(slideRightPlane(config))
     slide = slide.split(
-        slideLeftPlane(config).offset(-config.nozzle / 2), keep=b3d.Keep.BOTTOM
+        slideLeftPlane(config).offset(config.nozzle / 2), keep=b3d.Keep.BOTTOM
     )
     return slide
 
