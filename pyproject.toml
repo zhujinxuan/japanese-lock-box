@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "japanese_lock_box"
+version = "0.1.0"
+description = "FDM model for simple, small japanese lock box"
+authors = ["zhujinxuan <zhujinxuan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.project-paths]
+stls="stls"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
